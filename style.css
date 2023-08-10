@@ -327,10 +327,13 @@ header .fa-bars{
 }
 
 .aa {
-    background: url(./images/ppp.JPG);
-    background-attachment: fixed;
-    background-size: 100% 100%;
-    width: 100%;
+    
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./images/ppp.JPG) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .aa .bb{
     display: flex;
@@ -566,6 +569,9 @@ header .fa-bars{
         padding: 2rem;
     }
     .home{
+        background-position: left;
+    }
+    .aa{
         background-position: left;
     }
 }
